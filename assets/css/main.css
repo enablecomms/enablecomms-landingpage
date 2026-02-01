@@ -2275,7 +2275,7 @@ button,
 
 #banner .image img {
   height: auto;                    /* don't stretch with the row height */
-  max-height: 520px;               /* pick a cap that looks good for your design */
+  max-height: 480px;               /* pick a cap that looks good for your design */
   width: 100%;
   object-fit: cover;               /* still crop nicely within its box */
 }
@@ -2284,3 +2284,4 @@ button,
 #banner .content {
   width: 50%;
 }
+
