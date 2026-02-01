@@ -2272,16 +2272,3 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
-
-#banner .image img {
-  height: auto;                    /* don't stretch with the row height */
-  max-height: 480px;               /* pick a cap that looks good for your design */
-  width: 100%;
-  object-fit: cover;               /* still crop nicely within its box */
-}
-
-/* (Optional) If you want the text column to scroll without forcing image to grow) */
-#banner .content {
-  width: 50%;
-}
-
