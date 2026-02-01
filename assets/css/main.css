@@ -4,6 +4,7 @@
 	Editorial by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
 */
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -2271,3 +2272,15 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
+#banner .image img {
+  height: auto;                    /* don't stretch with the row height */
+  max-height: 520px;               /* pick a cap that looks good for your design */
+  width: 100%;
+  object-fit: cover;               /* still crop nicely within its box */
+}
+
+/* (Optional) If you want the text column to scroll without forcing image to grow) */
+#banner .content {
+  width: 50%;
+}
